@@ -1,0 +1,104 @@
+.burgerbtn{
+    display: none;
+  
+}
+header{
+    padding: 0px;
+}
+nav.large ul{
+    display: inline-block;
+    float: right;
+}
+.large ul li{
+    display: inline-block;
+    margin: 20px 30px 0px 30px;    
+}
+.large ul li a{
+    text-decoration: none;
+}
+#first{
+    color: rgb(43, 45, 46);
+}
+.large ul li a:hover{
+    color: rgb(43, 45, 46);
+}
+.container{
+    width: 45rem;
+    margin: 0 auto;
+}
+.announcement{
+    width: 45rem;
+    margin: 0 auto;
+    display: block;
+    margin-top: 1rem;
+    
+}
+.announcement .imagery{
+    float: left;
+    margin-right: 1rem;
+}
+.container .announcement{
+    background-color: rgb(194, 228, 231);
+    padding: 1.5rem;
+}
+.announcement .info h3{
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.announcement .info p{
+    font-size: 0.875rem;
+}
+
+
+
+.column{
+    width: 45rem;
+    float: left;
+}
+.profile{
+    width: 12.2rem;
+    
+}
+.profile .details{
+    margin: 0 0 0 5px;
+}
+.profile .details p{
+ font-size: 0.8125rem
+ 
+}
+.updates{
+    width: 31.3rem;
+    display: block;
+    margin: 1.5rem 0 1.5rem 1.5rem;
+}
+
+.message-text .subject {
+    display: block;
+    font-weight: bold;
+  }
+
+
+ .message .photo, .details, .component{
+    float: left;
+} 
+
+
+.message .photo {
+    margin-right: 10px;
+  }
+
+  .message .sender {
+    width: 140px;
+    margin-right: 10px;
+  }
+
+  .message .message-text {
+    width: 220px;
+    margin-right: 5px;
+  }
+
+  .message .booking-details {
+    width: 80px;
+  }
+
+ 
